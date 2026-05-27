@@ -5,10 +5,10 @@
 
 /* Root Variables */
 :root {
-    --bg-dark: #0B0F19;
-    --bg-slate-900: #0F172A;
-    --bg-slate-800: #1E293B;
-    --bg-slate-700: #334155;
+    --bg-dark: #FFFFFF;
+    --bg-slate-900: #F8FAFC;
+    --bg-slate-800: #F1F5F9;
+    --bg-slate-700: #E2E8F0;
 
     --primary: #F97316;
     /* Vibrant Brand Orange */
@@ -16,15 +16,15 @@
     --primary-light: rgba(249, 115, 22, 0.15);
     --primary-glow: rgba(249, 115, 22, 0.4);
 
-    --text-white: #FFFFFF;
-    --text-slate-100: #F1F5F9;
-    --text-slate-300: #CBD5E1;
-    --text-slate-400: #94A3B8;
+    --text-white: #0F172A;
+    --text-slate-100: #1E293B;
+    --text-slate-300: #334155;
+    --text-slate-400: #475569;
 
-    --glass-bg: rgba(30, 41, 59, 0.6);
-    --glass-border: rgba(255, 255, 255, 0.08);
+    --glass-bg: rgba(255, 255, 255, 0.8);
+    --glass-border: rgba(0, 0, 0, 0.1);
     --glass-border-active: rgba(249, 115, 22, 0.4);
-    --card-shadow: 0 10px 30px -10px rgba(0, 0, 0, 0.7);
+    --card-shadow: 0 10px 30px -10px rgba(0, 0, 0, 0.1);
 
     --font-primary: 'Outfit', sans-serif;
     --transition-smooth: all 0.4s cubic-bezier(0.16, 1, 0.3, 1);
@@ -229,7 +229,7 @@ p {
 }
 
 .header-logo {
-    height: 55px;
+    height: 80px;
     width: auto;
     object-fit: contain;
     transition: var(--transition-smooth);
